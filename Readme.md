@@ -1,8 +1,8 @@
-Dwarven Heritage Project
-Author: expwnent
+# Dwarven Heritage Project
+- Author: [expwnent](https://github.com/expwnent/DFHeritage)
+- Updater: [cmdadabo](https://github.com/CMDadabo/DFHeritage)
 
-============================================================================
-Introduction:
+## Introduction:
 
 In vanilla DF, last names are randomized. Dwarves do not inherit the last names of their ancestors. I just finished writing an lua script that changes that. It works on both historical figures and the dwarves in the current fort.
 
@@ -30,13 +30,13 @@ Here's the rules of the new system, in no particular order:
 
 11. In the event that there are so many dwarves that not all of them can have unique names, the system just gives up and allows repeats.
 
-============================================================================
-Possible improvements: I've considered giving royalty a special extra last name, like what happens with dwarves that kill a lot of enemies. This extra last name would always be passed on unless there's a conflict, so you can tell which dwarves are descended from a monarch, and if so, which ones. The only problem is I don't know how to determine who was a civilization leader and when in lua. Advice on this is very welcome. Doing the rest of it shouldn't be that hard.
+## Possible Improvements
+
+I've considered giving royalty a special extra last name, like what happens with dwarves that kill a lot of enemies. This extra last name would always be passed on unless there's a conflict, so you can tell which dwarves are descended from a monarch, and if so, which ones. The only problem is I don't know how to determine who was a civilization leader and when in lua. Advice on this is very welcome. Doing the rest of it shouldn't be that hard.
 
 Instead of choosing random names for dwarves with name conflicts, go back and search through ancestor names.
 
-============================================================================
-Troubleshooting:
+## Troubleshooting
 
 1. Save first. Keep a backup. You don't want to lose a save over this (though I never have).
 
@@ -50,15 +50,14 @@ Troubleshooting:
 
 6. Sometimes it confuses LegendsViewer into thinking that some dwarves are the same. I suspect this is because their last names don't have the right part of speech, and so they are treated as nonexistant. It should work fine in-game.
 
-============================================================================
-Thoughts:
+
+# Thoughts
 
 A dwarf doesn't necessarily share a last name with a sibling, or even a parent.
 
 This mod does not change any gameplay mechanics, but I think it adds some very interesting flavor to the game. Every dwarf has exactly two Families, one for each last name. In theory, the game should only generate only as many Families as necessary to prevent repeated last names, but I've seen it generate quite a few.
 
-============================================================================
-Installation:
+# Installation:
 
 Requires DFHack. Was written for DFHack 0.34.11 r1. Install that or a later version first.
 
